@@ -52,7 +52,7 @@ module.exports = async () => {
   // Public Assets
   // ----------------------------------------
 
-  app.use(favicon(path.join(WIKI.ROOTPATH, 'assets', 'favicon.ico')))
+  app.use(favicon(path.join(WIKI.ROOTPATH, 'assets', 'favicon.png')))
   app.use(express.static(path.join(WIKI.ROOTPATH, 'assets'), {
     index: false,
     maxAge: '7d'
